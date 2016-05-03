@@ -1,10 +1,12 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 """
 python_template.py - Template for future python scripts
 By: Shaun Adkins (sadkins@som.umarylane.edu)
 
 """
+
+# vim: tabstop=8 expandtab shiftwidth=4 softtabstop=4
 
 from argparse import ArgumentParser
 import sys
