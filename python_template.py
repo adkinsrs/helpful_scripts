@@ -30,7 +30,7 @@ def main():
 def check_args(args, parser):
     """ Validate the passed arguments """
 
-    configure_logger(args.log_file, args.debug)
+    logger = configure_logger(args.log_file, args.debug)
 
 def configure_logger(filename, log_level):
     """ Creates a logger object with the appropriate level """
@@ -56,6 +56,7 @@ def configure_logger(filename, log_level):
         formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
         log_fh.setFormatter(formatter)
         logger.addHandler(log_fh)
+    return logger
 
 if __name__ == '__main__':
     main()
