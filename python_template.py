@@ -2,7 +2,7 @@
 
 """
 python_template.py - Template for future python scripts
-By: Shaun Adkins (sadkins@som.umarylane.edu)
+By: Shaun Adkins (sadkins@som.umaryland.edu)
 
 """
 
